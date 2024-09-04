@@ -24,7 +24,7 @@ include_once 'config/setting-configuration.php';
             <div class="col-md-6 right">
                <form action="dashboard/admin/authentication/admin-class.php" method="POST">
                   <div class="input-box">
-                     <h1>Login</h1>
+                     <h1>Registration</h1>
                      <div class="input-field">
                         <input type="hidden" name="csrf_token" value="<?php echo $csrf_token ?>">
                      </div>
@@ -41,7 +41,7 @@ include_once 'config/setting-configuration.php';
                         <button type="submit" name="btn-signup" class="submit">Sign in</button>
                      </div>
                      <div class="signin">
-                        <span>Need to register? <a href="registration.php">Register here</a></span>
+                        <span>Already have an account? <a href="index.php">Login here</a></span>
                      </div>
                   </div>
                </form>
