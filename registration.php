@@ -29,13 +29,16 @@ include_once 'config/setting-configuration.php';
                         <input type="hidden" name="csrf_token" value="<?php echo $csrf_token ?>">
                      </div>
                      <div class="input-field">
+                        <input type="text" name="username" placeholder="Enter Username" required class="form-control">
+                     </div>
+                     <div class="input-field">
                         <input type="email" name="email" required class="form-control" placeholder="Enter Email">
                      </div>
                      <div class="input-field">
                         <input type="password" name="password" required class="form-control" placeholder="Enter Password">
                      </div>
                      <div class="input-field">
-                        <button type="submit" name="btn-signin" class="submit">Sign in</button>
+                        <button type="submit" name="btn-signup" class="submit">Sign in</button>
                      </div>
                      <div class="signin">
                         <span>Need to register? <a href="registration.php">Register here</a></span>
@@ -47,26 +50,6 @@ include_once 'config/setting-configuration.php';
       </div>
    </div>
 
-   <!-- <section>
-      <div class="container border" style="width: 600px;">
-         <h1 class="text-center mb-3">Sign in</h1>
-         <form action="dashboard/admin/authentication/admin-class.php" method="POST">
-            <div class="form-group">
-               <input type="hidden" name="csrf_token" value="<?php echo $csrf_token ?>">
-            </div>
-            <div class="form-group">
-               <input type="email" name="email" placeholder="Enter Email" required class="form-control">
-            </div>
-            <div class="form-group">
-               <input type="password" name="password" placeholder="Enter Password" required class="form-control">
-            </div>
-            <div class="form-btn">
-               <button type="submit" name="btn-signin" class="btn btn-primary">Sign in</button>
-            </div>
-         </form>
-         <p>already have an account <a href="registration.php">sign up here</a></p>
-      </div>
 
-   </section> -->
 
 </html>
