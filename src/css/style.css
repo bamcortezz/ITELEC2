@@ -27,7 +27,6 @@
    background-position: center;
    background-size:cover ;
    background-repeat: no-repeat;
-   position: relative;
    border-radius: 10px 0 0 10px;
 }
 
@@ -56,7 +55,6 @@ img {
 .input-field {
    display: flex;
    flex-direction: column;
-   position: relative;
    padding: 0 10px;
 }
 
