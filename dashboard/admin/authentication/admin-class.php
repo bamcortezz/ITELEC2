@@ -26,7 +26,7 @@ class ADMIN
          echo "<script> alert ('Invalid CSRF Token.'); window.location.href = '../../../'; </script>";
          exit;
       }
-
+      
       unset($_SESSION['csrf_token']);
 
       $hash_password = md5($password);
