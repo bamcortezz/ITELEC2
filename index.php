@@ -24,7 +24,7 @@ include_once 'config/setting-configuration.php';
             <div class="col-md-6 right">
                <form action="dashboard/admin/authentication/admin-class.php" method="POST">
                   <div class="input-box">
-                     <h1>Login</h1>
+                     <h1>LOGIN</h1>
                      <div class="input-field">
                         <input type="hidden" name="csrf_token" value="<?php echo $csrf_token ?>">
                      </div>
