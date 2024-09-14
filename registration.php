@@ -18,10 +18,10 @@ include_once 'config/setting-configuration.php';
 	<div class="wrapper">
 		<div class="container main">
 			<div class="row">
-				<div class="col-md-6 side-image">
+				<div class="col-md-5 side-image">
 					<img src="././src/img/side-pic.jpg" alt="">
 				</div>
-				<div class="col-md-6 right">
+				<div class="col-md-7 right">
 					<form action="dashboard/admin/authentication/admin-class.php" method="POST">
 						<div class="input-box">
 							<h1>REGISTRATION</h1>
