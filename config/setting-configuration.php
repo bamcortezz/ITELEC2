@@ -14,4 +14,6 @@ if (empty($_SESSION['csrf_token'])) {
 } else {
    $csrf_token = $_SESSION['csrf_token'];
 }
+
+
 ?>
