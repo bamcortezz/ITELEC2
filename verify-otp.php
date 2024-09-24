@@ -24,7 +24,7 @@ include_once 'config/setting-configuration.php';
           <h2 class="fw-bolder">OTP VERIFICATION</h2>
         </div>
         <div class="text-center mb-3">
-          <h6>We have sent a one time password (OTP) to your email</h6>
+          <h6 class="fw-light">We have sent a One Time Password (OTP) to your email</h6>
         </div>
         <form action="dashboard/admin/authentication/admin-class.php" method="post">
           <div class="input-box">
