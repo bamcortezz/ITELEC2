@@ -17,14 +17,16 @@ include_once 'config/setting-configuration.php';
   <div class="container d-flex align-items-center justify-content-center vh-100">
     <div class="row">
       <div class="col-md shadow p-3 mb-5 bg-body-tertiary rounded p-5">
-        <div class="text-center mb-4">
-          <img src="src/img/mail.jpg" alt="Mail Logo" style="width: 90px;">
-        </div>
-        <div class="text-center mb-3">
-          <h2 class="fw-bolder">OTP VERIFICATION</h2>
-        </div>
-        <div class="text-center mb-3">
-          <h6 class="fw-light">We have sent a One Time Password (OTP) to your email</h6>
+        <div class="text-img">
+          <div class="d-flex align-items-center justify-content-center mb-4">
+            <img src="src/img/mail.jpg" alt="Mail Logo" style="width: 90px;">
+          </div>
+          <div class="text-center mb-3">
+            <h2 class="fw-bolder">OTP VERIFICATION</h2>
+          </div>
+          <div class="text-center mb-3">
+            <h6 class="fw-light">We have sent a One Time Password (OTP) to your email</h6>
+          </div>
         </div>
         <form action="dashboard/admin/authentication/admin-class.php" method="post">
           <div class="input-box">
