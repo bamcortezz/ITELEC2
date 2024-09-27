@@ -226,11 +226,7 @@
 
 			$hash_password = md5($password);
 			$stmt = $this->runQuery('INSERT INTO user (username, email, password) VALUES (:username, :email, :password)');
-			$exec = $stmt->execute(array(
-				":username" => $username,
-				":email" => $email,
-				":password" => $hash_password
-			));
+			$exec = $stmt->execute(array( ":username" => $username, ":email" => $email,":password" => $hash_password));
 
 			if ($exec) {
 				echo "<script> alert ('Admin added successfully.'); window.location.href = '../../../'; </script>";
