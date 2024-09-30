@@ -20,8 +20,8 @@ if (empty($_SESSION['csrf_token'])) {
 class SystemConfig {
 
    private $conn;
-   private $smpt_email;
-   private $smpt_password;
+   private $smtp_email;
+   private $smtp_password;
 
    public function __construct()
    {
@@ -34,19 +34,19 @@ class SystemConfig {
       $stmt->execute();
       $email_config = $stmt->fetch(PDO::FETCH_ASSOC);
 
-      $this->smpt_email = $email_config['email'];
-      $this->smpt_password = $email_config['password'];
+      $this->smtp_email = $email_config['email'];
+      $this->smtp_password = $email_config['password'];
 
    }
 
-   public function getSmptEmail()
+   public function getSmtpEmail()
    {
-      return $this->smpt_email;
+      return $this->smtp_email;
    }
 
-   public function getSmptPassword()
+   public function getSmtpPassword()
    {
-      return $this->smpt_password;
+      return $this->smtp_password;
    }
 
    public function runQuery($sql)

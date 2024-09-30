@@ -17,8 +17,8 @@
 		public function __construct()
 		{
 			$this->settings = new SystemConfig();
-			$this->smtp_email = $this->settings->getSmptEmail();
-			$this->smtp_password = $this->settings->getSmptPassword();
+			$this->smtp_email = $this->settings->getSmtpEmail();
+			$this->smtp_password = $this->settings->getSmtpPassword();
 
 
 			$database = new Database();
